@@ -12,7 +12,7 @@ public class App
         try {
         File file = new File("C:\\Users\\pankaj\\Desktop\\test.txt"); 
   
-        FileReader fr = new FileReader(file);
+        //FileReader fr = new FileReader(file);
         } catch (Exception e){}
         System.out.println( "Hello World!" );
     }
@@ -20,8 +20,9 @@ public class App
     public static void foo() {
         try {
         File file = new File("C:\\Users\\pankaj\\Desktop\\test.txt"); 
-  
+        System.out.println("Hello");
         FileReader fr = new FileReader(file);
+        System.out.println("Hello");
         } catch (Exception e){}
     }
 }

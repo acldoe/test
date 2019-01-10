@@ -16,4 +16,12 @@ public class App
         } catch (Exception e){}
         System.out.println( "Hello World!" );
     }
+    
+    public static void foo() {
+        try {
+        File file = new File("C:\\Users\\pankaj\\Desktop\\test.txt"); 
+  
+        FileReader fr = new FileReader(file);
+        } catch (Exception e){}
+    }
 }
